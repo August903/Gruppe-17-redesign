@@ -1,0 +1,177 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: none;*/
+}
+
+/*___________________________________________________*/
+
+/*#dog1_container {
+    position: absolute;
+    left: 20vw;
+    top: 28vw;
+    cursor: pointer;
+}
+
+#dog1_sprite {
+    width: 9vw;
+    height: 12vw;
+    background-image: url(hund.jpg);
+    background-size: 100%;*/
+
+/*___________________________________________________*/
+
+#SPONSORERsite {
+    position: absolute;
+    background: #E5E5E5;
+    width: 100vw;
+
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    /*transform: scale(0.5);*/
+}
+
+
+
+#GALLERI_SLOTT {
+    position: absolute;
+    left: 14.5vw;
+    top: 0;
+    overflow: visible;
+    width: 811px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 110px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    height: 52px;
+    left: 0px;
+    top: 120px;
+}
+
+#navs {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 845.448px;
+    height: 24px;
+    left: 14.5vw;
+    top: 134.228px;
+    overflow: visible;
+}
+
+#header {
+    position: absolute;
+    width: 845.448px;
+    height: 24px;
+    left: 537px;
+    top: 134.228px;
+    overflow: visible;
+}
+
+#NoPath {
+    position: absolute;
+    width: 438px;
+    height: 437px;
+    left: 1vw;
+    top: 30vh;
+    overflow: visible;
+}
+
+#NoPath_ {
+    position: absolute;
+    width: 683px;
+    height: 490px;
+    left: 22vw;
+    top: 30vh;
+    overflow: visible;
+}
+
+#NoPath___Copy__2_ {
+    position: absolute;
+    width: 484px;
+    height: 362px;
+    left: 60vw;
+    top: 30vh;
+    overflow: visible;
+}
+
+
+
+
+
+#Dette_skibsbillede2 {
+    position: absolute;
+    left: 26.5vw;
+    top: 120vh;
+    overflow: hidden;
+    width: 575px;
+    height: 160px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
+
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+
+    left: 25vw;
+    top: 120vh;
+}
+
+a {
+    background-color: white;
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+/*
+nav a {
+    background-color: white;
+    font-family: Raleway;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+}*/
+
+a:link {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:visited {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:hover {
+    color: rgb(42, 42, 42);
+}
+
+a:active {
+    color: black;
+}
+
+@media screen and (min-width: 830px) {
+    a {
+        flex-direction: row;
+    }
+}
