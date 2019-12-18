@@ -26,6 +26,7 @@ body {
     position: absolute;
     background: #E5E5E5;
     width: 100vw;
+    height: 100vh;
 
     background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
@@ -36,7 +37,7 @@ body {
 
 #GALLERI_SLOTT {
     position: absolute;
-    left: 14.5vw;
+    left: 27vw;
     top: 0;
     overflow: visible;
     width: 811px;
@@ -52,9 +53,9 @@ body {
 .Rectangle_1 {
     position: absolute;
     overflow: visible;
-    width: 120px;
+    max-width: 100%;
     height: 52px;
-    left: 0px;
+    left: 5px;
     top: 120px;
 }
 
@@ -62,9 +63,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    width: 845.448px;
+    width: 100vw;
     height: 24px;
-    left: 14.5vw;
+    left: center;
     top: 134.228px;
     overflow: visible;
 }
@@ -80,27 +81,27 @@ body {
 
 #NoPath {
     position: absolute;
-    width: 438px;
-    height: 437px;
-    left: 1vw;
+    max-width: 100%;
+    max-height: 40%;
+    left: 12vw;
     top: 30vh;
     overflow: visible;
 }
 
 #NoPath_ {
     position: absolute;
-    width: 683px;
-    height: 490px;
-    left: 22vw;
+    max-width: 100%;
+    max-height: 40%;
+    left: 37vw;
     top: 30vh;
     overflow: visible;
 }
 
 #NoPath___Copy__2_ {
     position: absolute;
-    width: 484px;
-    height: 362px;
-    left: 60vw;
+    max-width: 100%;
+    max-height: 40%;
+    left: 68vw;
     top: 30vh;
     overflow: visible;
 }
@@ -112,16 +113,16 @@ body {
 #Dette_skibsbillede2 {
     position: absolute;
     left: 26.5vw;
-    top: 120vh;
+    top: 73vh;
     overflow: hidden;
     width: 575px;
     height: 160px;
     text-align: left;
-    font-family: Segoe UI;
+    font-family: "Segoe UI";
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
 
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(70, 70, 70);
 }
 
@@ -131,7 +132,7 @@ body {
     overflow: visible;
 
     left: 25vw;
-    top: 120vh;
+    top: 72vh;
 }
 
 a {
@@ -170,8 +171,53 @@ a:active {
     color: black;
 }
 
-@media screen and (min-width: 830px) {
-    a {
-        flex-direction: row;
+@media screen and (max-width: 1020px) {
+    #navs {
+        max-width: 100%;
+        height: 24px;
+        left: 0vw;
+        top: 134.228px;
+        overflow: visible;
+    }
+
+    #NoPath {
+        max-width: 100%;
+        max-height: 40%;
+        left: 12vw;
+        top: 30vh;
+    }
+
+    #NoPath_ {
+        max-width: 100%;
+        max-height: 40%;
+        left: 37vw;
+        top: 30vh;
+    }
+
+    #NoPath___Copy__2_ {
+        max-width: 100%;
+        max-height: 40%;
+        left: 68vw;
+        top: 30vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #navs {
+        max-width: 100%;
+        height: 24px;
+        left: 0vw;
+        top: 134.228px;
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #navs {
+        max-width: 100%;
+        height: 24px;
+        left: 0vw;
+        top: 134.228px;
+        overflow: visible;
     }
 }
