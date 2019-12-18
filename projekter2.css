@@ -11,7 +11,7 @@ body {
     position: absolute;
     left: 370px;
     top: 18px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: lighter;
     font-size: 70px;
@@ -185,7 +185,7 @@ img {
   color: black;
 }
 
-.event_2 {
+.event_1 {
         position: absolute;
 		left: 200px;
 		top: 1000px;
