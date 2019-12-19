@@ -2,25 +2,9 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    /*border: none;*/
 }
 
-/*___________________________________________________*/
 
-/*#dog1_container {
-    position: absolute;
-    left: 20vw;
-    top: 28vw;
-    cursor: pointer;
-}
-
-#dog1_sprite {
-    width: 9vw;
-    height: 12vw;
-    background-image: url(hund.jpg);
-    background-size: 100%;*/
-
-/*___________________________________________________*/
 
 #SPONSORERsite {
     position: absolute;
@@ -30,14 +14,14 @@ body {
 
     background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
-    /*transform: scale(0.5);*/
+
 }
 
 
 
 #GALLERI_SLOTT {
     position: absolute;
-    left: 27vw;
+    left: 28.5vw;
     top: 0;
     overflow: visible;
     width: 811px;
@@ -62,12 +46,14 @@ body {
 #navs {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
     position: absolute;
-    width: 100vw;
+    width: 97vw;
     height: 24px;
-    left: center;
+
     top: 134.228px;
     overflow: visible;
+
 }
 
 #header {
@@ -101,8 +87,8 @@ body {
     position: absolute;
     max-width: 100%;
     max-height: 40%;
-    left: 68vw;
-    top: 30vh;
+    left: 70vw;
+    top: 32vh;
     overflow: visible;
 }
 
@@ -110,9 +96,9 @@ body {
 
 
 
-#Dette_skibsbillede2 {
+#Dette_skibsbillede1 {
     position: absolute;
-    left: 26.5vw;
+    left: 37vw;
     top: 73vh;
     overflow: hidden;
     width: 575px;
@@ -131,7 +117,7 @@ body {
     position: absolute;
     overflow: visible;
 
-    left: 25vw;
+    left: 36vw;
     top: 72vh;
 }
 
@@ -140,20 +126,9 @@ a {
     font-family: Raleway;
     text-decoration: none;
     font-weight: bold;
-    flex-direction: column;
 }
 
-/*
-nav a {
-    background-color: white;
-    font-family: Raleway;
-    margin: 0px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    flex-direction: column;
-}*/
+
 
 a:link {
     color: rgba(112, 112, 112, 1);
@@ -171,7 +146,194 @@ a:active {
     color: black;
 }
 
+.Rectangle_4 {
+    visibility: hidden;
+}
+
+
+#Dette_skibsbillede2 {
+    visibility: hidden;
+}
+
+.Rectangle_3 {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1919px) {
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 7vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 35vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 70vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+
+    .Rectangle_2 {
+        left: 3vw;
+    }
+
+    #Dette_skibsbillede1 {
+        left: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 7vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 35vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 70vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.9)
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 5vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 33vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 67vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 5vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 33vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 67vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.6)
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 1vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 30vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 67vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+}
+
+
+
 @media screen and (max-width: 1020px) {
+    #GALLERI_SLOTT {
+        left: 0vw;
+    }
+
     #navs {
         max-width: 100%;
         height: 24px;
@@ -198,7 +360,38 @@ a:active {
         max-width: 100%;
         max-height: 40%;
         left: 68vw;
+        top: 32vh;
+    }
+
+
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 0vw;
         top: 30vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 25vw;
+        top: 30vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 60vw;
+        top: 32vh;
+        overflow: visible;
+        transform: scale(0.5)
     }
 }
 
@@ -210,14 +403,117 @@ a:active {
         top: 134.228px;
         overflow: visible;
     }
+
+    #GALLERI_SLOTT {
+        left: 0vw;
+        top: ;
+        font-size: 90px;
+    }
 }
 
-@media screen and (max-width: 630px) {
+
+
+@media screen and (max-width: 375px) {
+    .Rectangle_1 {
+        display: none;
+    }
+
+    #GALLERI_SLOTT {
+        left: 1.5vw;
+        top: 3vw;
+        font-size: 49px;
+    }
+
     #navs {
-        max-width: 100%;
-        height: 24px;
-        left: 0vw;
-        top: 134.228px;
+        top: 25vh;
+        left: 2vw;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        text-align: center;
+    }
+
+    #SPONSORERsite {
+        width: 100vw;
+        height: 200vh;
+    }
+
+
+    .Rectangle_2 {
+        display: none;
+    }
+
+
+    .Rectangle_3 {
+        position: absolute;
         overflow: visible;
+
+        left: 3.5vw;
+        top: 87vh;
+    }
+
+    .Rectangle_4 {
+        position: absolute;
+        overflow: visible;
+
+        left: 27.5vw;
+        top: 10vh;
+        visibility: visible;
+    }
+
+
+    /*_____________________________________________________________*/
+
+
+    #Dette_skibsbillede1 {
+        visibility: hidden;
+    }
+
+    #Dette_skibsbillede2 {
+        position: absolute;
+        left: 4.5vw;
+        top: 87vh;
+        overflow: hidden;
+        width: 350px;
+        height: 160px;
+        text-align: left;
+        font-family: "Segoe UI";
+        font-style: normal;
+        font-weight: lighter;
+
+        font-size: 13px;
+        color: rgb(70, 70, 70);
+
+        visibility: visible;
+    }
+
+    #NoPath {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 1.5vw;
+        top: 18vh;
+        overflow: visible;
+        transform: scale(0.4)
+    }
+
+    #NoPath_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 1.5vw;
+        top: 44vh;
+        overflow: visible;
+        transform: scale(0.5)
+    }
+
+    #NoPath___Copy__2_ {
+        position: absolute;
+        max-width: 100%;
+        max-height: 40%;
+        left: 1.5vw;
+        top: 60vh;
+        overflow: visible;
+        transform: scale(0.4)
     }
 }
