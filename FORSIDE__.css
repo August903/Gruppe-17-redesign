@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#FORSIDE__ {
+    position: absolute;
+    background: #E5E5E5;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+
+.Rectangle_29 {
+    position: absolute;
+    overflow: visible;
+    width: 620px;
+    height: 180px;
+    left: 960px;
+    top: 765px;
+}
+
+.Rectangle_28 {
+    position: absolute;
+    overflow: visible;
+    width: 620px;
+    height: 180px;
+    left: 293px;
+    top: 765px;
+    z-index: 0;
+}
+
+#GALLERI_SLOTT {
+    position: absolute;
+    left: 28.5vw;
+    top: 0;
+    overflow: visible;
+    width: 811px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 110px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#navs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: absolute;
+    width: 97vw;
+    height: 24px;
+
+    top: 134.228px;
+    overflow: visible;
+
+}
+
+a {
+    background-color: white;
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5;
+}
+
+a:link {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:visited {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:hover {
+    color: rgb(42, 42, 42);
+}
+
+a:active {
+    color: black;
+}
+
+.Rectangle_4 {
+    visibility: hidden;
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 52px;
+    left: 0px;
+    top: 123px;
+}
+
+
+#Sk_rmbillede_2019_12_09_kl__11 {
+    position: absolute;
+    width: 1920px;
+    height: 587px;
+    left: 0px;
+    top: 174px;
+    overflow: visible;
+}
+
+#Group_2 {
+    position: absolute;
+    width: 1218px;
+    height: 180px;
+    left: 351px;
+    /*  top: 804px;*/
+    top: 762px;
+    overflow: visible;
+}
+
+#Velkommen_til_Galleri_Slott__ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 536px;
+    height: 47px;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#Mange_tak_fordi_du_har_lyst_at {
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    overflow: hidden;
+    width: 535px;
+    height: 115px;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#Kommende_udstillinger____ {
+    position: absolute;
+    left: 683px;
+    top: 0px;
+    overflow: hidden;
+    width: 536px;
+    height: 47px;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#Interesserede_kan_se_nogle_af_ {
+    position: absolute;
+    left: 683px;
+    top: 65px;
+    overflow: hidden;
+    width: 438px;
+    height: 115px;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#Rectangle_22 {
+    opacity: 0;
+}
+
+.Rectangle_22 {
+    position: absolute;
+    overflow: visible;
+    width: 109px;
+    height: 29px;
+    left: 525px;
+    top: 129px;
+}
+
+#Rectangle_23 {
+    opacity: 0;
+}
+
+.Rectangle_23 {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 29px;
+    left: 676px;
+    top: 134px;
+    cursor: pointer;
+}
+
+#Rectangle_24 {
+    opacity: 0;
+}
+
+.Rectangle_24 {
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    height: 24px;
+    left: 778px;
+    top: 134px;
+    cursor: pointer;
+}
+
+#Rectangle_25 {
+    opacity: 0;
+}
+
+.Rectangle_25 {
+    position: absolute;
+    overflow: visible;
+    width: 138px;
+    height: 29px;
+    left: 913px;
+    top: 134px;
+    cursor: pointer;
+}
+
+#Rectangle_27 {
+    opacity: 0;
+}
+
+.Rectangle_27 {
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    height: 29px;
+    left: 1279px;
+    top: 134px;
+    cursor: pointer;
+}

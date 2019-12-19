@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#KONTAKTsite {
+    position: absolute;
+    background: #E5E5E5;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+
+
+#GALLERI_SLOTT {
+    position: absolute;
+    left: 28.5vw;
+    top: 0;
+    overflow: visible;
+    width: 811px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 110px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#navs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: absolute;
+    width: 97vw;
+    height: 24px;
+
+    top: 134.228px;
+    overflow: visible;
+
+}
+
+a {
+    background-color: white;
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5;
+}
+
+a:link {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:visited {
+    color: rgba(112, 112, 112, 1);
+}
+
+a:hover {
+    color: rgb(42, 42, 42);
+}
+
+a:active {
+    color: black;
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 52px;
+    left: 0px;
+    top: 120px;
+}
+
+#Group_1 {
+    position: absolute;
+    width: 845.448px;
+    height: 24px;
+    left: 537px;
+    top: 134.228px;
+    overflow: visible;
+}
+
+.Rectangle_15 {
+    position: absolute;
+    overflow: visible;
+    width: 891px;
+    height: 374px;
+    left: 515px;
+    top: 376px;
+}
+
+#KONTAKT_INFOMATION {
+    position: absolute;
+    left: 686px;
+    top: 516px;
+    overflow: visible;
+    width: 550px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: rgba(112, 112, 112, 1);
+}

@@ -1,0 +1,297 @@
+.mediaViewInfo {
+	--web-view-name: KUNST – 4;
+	--web-view-id: KUNST___4;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: KUNST___4;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#KUNST___4 {
+	position: absolute;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: KUNST – 4;
+	--web-view-id: KUNST___4;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#GALLERI_SLOTT {
+	position: absolute;
+	left: 555px;
+	top: 0px;
+	overflow: visible;
+	width: 811px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 110px;
+	color: rgba(112,112,112,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 52px;
+	left: 0px;
+	top: 120px;
+}
+#Group_1 {
+	position: absolute;
+	width: 845.448px;
+	height: 24px;
+	left: 537px;
+	top: 134.228px;
+	overflow: visible;
+}
+#FORSIDE {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#BIO {
+	position: absolute;
+	left: 150.489px;
+	top: 0px;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#KUNST {
+	position: absolute;
+	left: 250.979px;
+	top: 0px;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#PROJEKTER {
+	position: absolute;
+	left: 385.468px;
+	top: 0px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#SPONSORER {
+	position: absolute;
+	left: 564.958px;
+	top: 0px;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#KONTAKT {
+	position: absolute;
+	left: 752.447px;
+	top: 0px;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 367px;
+	height: 485px;
+	left: 269px;
+	top: 287px;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 367px;
+	height: 485px;
+	left: 1237px;
+	top: 287px;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 437px;
+	height: 542px;
+	left: 718px;
+	top: 281px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: KUNST___1.html;
+	cursor: pointer;
+}
+#Image_2 {
+	position: absolute;
+	width: 383px;
+	height: 523px;
+	left: 1239px;
+	top: 280px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: KUNST___2.html;
+	cursor: pointer;
+}
+#Image_3 {
+	position: absolute;
+	width: 385px;
+	height: 526px;
+	left: 251px;
+	top: 277px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: KUNST___3.html;
+	cursor: pointer;
+}
+#Rectangle_16 {
+	opacity: 0;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 112px;
+	height: 31px;
+	left: 524px;
+	top: 134px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: FORSIDE__.html;
+	cursor: pointer;
+}
+#Rectangle_17 {
+	opacity: 0;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	height: 31px;
+	left: 666px;
+	top: 134px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: BIO.html;
+	cursor: pointer;
+}
+#Rectangle_18 {
+	opacity: 0;
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	height: 31px;
+	left: 769px;
+	top: 134px;
+}
+#Rectangle_19 {
+	opacity: 0;
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	height: 29px;
+	left: 909px;
+	top: 129px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PROJEKTER.html;
+	cursor: pointer;
+}
+#Rectangle_20 {
+	opacity: 0;
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	height: 29px;
+	left: 1093px;
+	top: 129px;
+}
+#Rectangle_21 {
+	opacity: 0;
+}
+.Rectangle_21 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 36px;
+	left: 1279px;
+	top: 129px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: KONTAKT.html;
+	cursor: pointer;
+}
+#Image_1 {
+	position: absolute;
+	width: 438px;
+	height: 614px;
+	left: 718px;
+	top: 245px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: KUNST___1.html;
+	cursor: pointer;
+}
